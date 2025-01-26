@@ -1,5 +1,5 @@
 body{
-    background-color: #000;
+    background-color: black;
     color: #fff;
     font-size: 20px;
 }
@@ -9,7 +9,7 @@ a{
 }
 header{
     text-align: center;
-    background-color: green;
+    background-color: darkgreen;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -21,15 +21,20 @@ footer{
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    background-color: green;
+    background-color: darkgreen;
     margin: 0;
     text-align: center;
     width: 100%;
+}
+footer a:hover{
+    background-color: green;
 }
 footer ul{
     list-style-type: none;
     text-align: center;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 footer li{
     display: inline;
@@ -48,4 +53,22 @@ table, td, th{
 }
 table{
     margin: auto;
+} 
+#S{
+    width: 100%;
+    background-color: #172a59;
+    padding: 10px;
+}
+#EG{
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+}
+#X{
+    width: 100%;
+    background-color: #2bab0e;
+    padding: 10px;
+}
+#th{
+    background-color: red;
 }
