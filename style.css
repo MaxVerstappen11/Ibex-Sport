@@ -1,33 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     background-color: black;
     color: #fff;
     font-size: 20px;
+    margin: 0;
+    font-family: Roboto;
+    padding: 0;
 }
 a{
     text-decoration: none;
     color: #fff;
 }
+h1{
+    text-align: left;
+}
 header{
     text-align: center;
-    background-color: darkgreen;
+    background-color: #f9b408;
     overflow: hidden;
     position: sticky;
     top: 0;
     margin: 0;
     margin-bottom: 10px;
     width: 100%;
+    padding: 0 10px 0 10px;
+    background-image: url(logo.jfif);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 90px;
+    height: 100px;
+}
+main{
+    margin: 15px;
 }
 footer{
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    background-color: darkgreen;
+    background-color: #f9b408;
     margin: 0;
     text-align: center;
     width: 100%;
 }
 footer a:hover{
-    background-color: green;
+    background-color: #f8c74b;
 }
 footer ul{
     list-style-type: none;
@@ -45,30 +61,59 @@ footer a{
     text-align: center;
     padding: 14px 16px;
 }
-table, td, th{
-    text-align: center;
-    border: 2px solid white;
-    border-collapse: collapse;
+#wall{
+    float: right;
+}
+.idk{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     padding: 10px;
+}
+#bw{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+#chw{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+#gym{
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+#cw{
+    width: 25%;  
+    padding: 10px;  
+    text-align: center;
 }
 table{
     margin: auto;
-} 
-#S{
-    width: 100%;
-    background-color: #172a59;
-    padding: 10px;
+    margin-top: 25px;
+    width: 750px;
 }
-#EG{
-    width: 100%;
-    background-color: #333;
-    padding: 10px;
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
 }
-#X{
-    width: 100%;
-    background-color: #2bab0e;
-    padding: 10px;
+th{
+    text-align: center;
 }
-#th{
-    background-color: red;
+td{
+    text-align: left;
+}
+th, td{
+    padding: 15px;
+}
+caption{
+    font-size: 40px;
+}
+fieldset{
+    border: none;
+}
+input, textarea{
+    margin: 15px;
 }
