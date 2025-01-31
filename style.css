@@ -123,6 +123,12 @@ fieldset{
 input, textarea{
     margin: 15px;
 }
+textarea{
+    border-radius: 15px;
+}
+input{
+    border-radius: 5px;
+}
 #buttonr{
     background-color: red;
 }
@@ -131,20 +137,27 @@ input, textarea{
 }
 #buttonr, #buttona{
     border: none;
-    font-size: 250px;
+    font-size: 150px;
     margin: 25px;
     padding: 30px;
     text-align: center;
-    width: 100%;
 }
 .button{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
 }
 #bug{
     font-size: 200px;
     text-align: center;
     color: darkred;
+}
+.svg{
+    fill: #fff;
+    height: 75px;
+}
+#logo{
+    float: right;
+    height: 300px;
 }
