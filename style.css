@@ -41,6 +41,12 @@ footer{
     margin: 0;
     text-align: center;
     width: 100%;
+    height: 50px;
+}
+footer img{
+    height: 25px;
+    float: right;
+    margin-left: 10px;
 }
 footer a:hover{
     background-color: #f8c74b;
@@ -116,4 +122,29 @@ fieldset{
 }
 input, textarea{
     margin: 15px;
+}
+#buttonr{
+    background-color: red;
+}
+#buttona{
+    background-color: green;
+}
+#buttonr, #buttona{
+    border: none;
+    font-size: 250px;
+    margin: 25px;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#bug{
+    font-size: 200px;
+    text-align: center;
+    color: darkred;
 }
