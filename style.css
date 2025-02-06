@@ -139,8 +139,13 @@ input{
     float: right;
     height: 300px;
 }
+.btn:hover{
+    font-size: 85%;
+    background-color: #f9b408;
+    color: #fff;
+}
 .div{
-    height: 49px;
+    height: 50px;
 }
 .contact{
     margin: 10px;
