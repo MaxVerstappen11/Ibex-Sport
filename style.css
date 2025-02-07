@@ -166,3 +166,8 @@ input{
     font-size: larger;
     color: #f8c74b;
 }
+#copyright{
+    float: right;
+    color: #fff;
+    padding: 14px 16px;
+}
