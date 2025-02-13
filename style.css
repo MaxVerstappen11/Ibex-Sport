@@ -24,11 +24,11 @@ header{
     margin-bottom: 10px;
     width: 100%;
     padding: 0 10px 0 10px;
-    background-image: url(logo.jfif);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 90px;
     height: 100px;
+}
+header img{
+    height: 100%;
+    float: right;
 }
 main{
     margin: 15px;
